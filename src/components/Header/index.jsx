@@ -13,7 +13,7 @@ const Header = () => {
   useEffect(() => {
     const user = getUser();
     if (user) {
-      setUserName(`${user.firstName}`.trim() || 'Anonymous');
+      setUserName(`${user.firstName}`.trim() || 'Bem vindo - Erick Alves');
     }
 
     const updateCartCount = () => {
